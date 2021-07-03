@@ -1,0 +1,162 @@
+.navBar {
+  background-color: #1f2833;
+  padding: 10px;
+  text-align: right;
+  box-shadow: 0px -2px 7px navy;
+  margin-bottom: 15px;
+}
+
+.navBar > a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  gap: 10px;
+  justify-items: center;
+}
+
+.portfolio-item {
+  height: 150px;
+  width: 175px;
+  background-color: navy;
+  padding: 10px;
+}
+
+section {
+  padding: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section h2 {
+  text-align: center;
+  color: white;
+}
+
+.portfolio-item:nth-child(even) {
+  background-color: transparent;
+  border: 2px solid navy;
+  color: navy;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "form form . fb twitter"
+  "form form . yt ig";
+  gap: 20px;
+}
+
+.fb, .twitter, .yt, .ig {
+  width: 175px;
+  height: 175px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: navy;
+  box-shadow: 0px 0px 7px grey;
+  background-color: navy;
+}
+
+.fb > span,
+.twitter > span,
+.yt > span,
+.ig > span {
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+.form {
+  grid-area: form;
+}
+
+.fb {
+  grid-area: fb;
+}
+
+.twitter {
+  grid-area: twitter;
+}
+
+.yt {
+  grid-area: yt;
+}
+
+.ig {
+  grid-area: ig;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid navy;
+  padding: 15px 8px;
+  border-radius: 5px;
+  background-color: grey;
+  width: 100%;
+}
+
+hr {
+  margin-bottom: 25px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2833;
+  padding: 10px;
+  box-shadow: 0px 2px 7px navy;
+  margin-top: 15px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #d3d3d3;
+}
